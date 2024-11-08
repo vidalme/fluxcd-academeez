@@ -1,0 +1,2 @@
+# fluxcd-academeez
+fluxcd course
