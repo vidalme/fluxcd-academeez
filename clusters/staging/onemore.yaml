@@ -8,7 +8,11 @@ spec:
     metadata:
       labels:
         editor: vscode
-    spec:
-      containers:
-      - name: busybox
-        image: busybox
+  spec:
+    containers:
+    - name: busybox
+    image: busybox:latest
+    resources:
+      limits:
+        cpu: 100m
+        memory: 150Mi
