@@ -1,0 +1,14 @@
+apiVersion: extensions/v1beta1
+kind: Deployment
+metadata:
+  name: Novo deploy, teste de flux still
+spec:
+  replicas: Enter the number of replicas
+  template:
+    metadata:
+      labels:
+        editor: vscode
+    spec:
+      containers:
+      - name: nginx
+        image: Enter containers image
